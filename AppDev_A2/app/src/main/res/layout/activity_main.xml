@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#121212"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixelify_sans_bold"
+        android:text="GAIA MEMORY INDEX"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/infoButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:backgroundTint="@null"
+            android:fontFamily="@font/turret_road_bold"
+            android:text="INFO"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#000000" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/button_selector"
+            android:backgroundTint="@null"
+            android:text="SETTINGS"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/turret_road_bold"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/memoryListView"
+        android:layout_marginTop="16dp"
+        android:divider="@null"
+        android:dividerHeight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="SquareMaterialButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="NoTintButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="rippleColor">@null</item>
+    </style>
+
+</resources>

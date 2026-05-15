@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#121212"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="SETTINGS"
+        android:textSize="26sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/pixelify_sans_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+
+    <Switch
+        android:id="@+id/themeSwitch"
+        android:text="Dark Mode"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/soundSwitch"
+        android:text="Sound Effects"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_selector"
+        android:backgroundTint="@null"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/turret_road_bold"/>
+</LinearLayout>
